@@ -1,9 +1,17 @@
 {
   "name": "suzu",
   "version": "0.1.0",
+  "bin": {
+    "suzu": "bin/suzu"
+  },
   "description": "SimpleHTTPServer alternative for Node.js, with no cache",
   "main": "index.js",
   "repository": "git@github.com:utatti/suzu.git",
   "author": "Jun <me@noraesae.net>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "nocache": "^2.0.0"
+  }
 }
