@@ -7,7 +7,7 @@
   "description": "SimpleHTTPServer alternative for Node.js, with no cache",
   "main": "index.js",
   "repository": "git@github.com:utatti/suzu.git",
-  "author": "Jun <me@noraesae.net>",
+  "author": "Jun <noraesae+dev@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.3",
